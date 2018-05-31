@@ -1,8 +1,8 @@
 #write your code her
 def countdown(number)
-  number = 10 
+  counter = number 
   while number > 0
-    puts "#{num} SECOND(S)!"
+    puts "#{number} SECOND(S)!"
     number -= 1 
   end
   return "HAPPY NEW YEAR!"
